@@ -1,0 +1,3 @@
+Enter x: 
+Enter y: 
+x + y = 3

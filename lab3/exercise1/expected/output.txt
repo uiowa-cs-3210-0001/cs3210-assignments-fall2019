@@ -1,0 +1,5 @@
+boolean: true
+character: z
+integer: -42
+floating-point: 3.14159
+string: hello
