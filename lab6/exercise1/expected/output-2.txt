@@ -1,0 +1,5 @@
+Enter a positive number: You entered 5
+Numbers from zero to 5
+0 1 2 3 4 
+Numbers from 5 to zero
+5 4 3 2 1 0 

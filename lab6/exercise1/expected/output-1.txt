@@ -1,0 +1,5 @@
+Enter a positive number: You entered 0
+Numbers from zero to 0
+
+Numbers from 0 to zero
+0 
