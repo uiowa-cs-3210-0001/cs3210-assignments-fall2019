@@ -16,7 +16,7 @@ Alice got pulled into another project before she could finish her implementation
 >    _S / x<sub>n</sub>_.
 > 3. Repeat step 2 until the desired accuracy is achieved.
 
-You can use your `is_sqrt` implementation from [hw3/problem1](https://github.com/uiowa-cs-3210-0001/cs3210-assignments-fall2019/tree/master/hw3/problem1) to check whether
+Use your `is_sqrt` implementation from [hw3/problem1](https://github.com/uiowa-cs-3210-0001/cs3210-assignments-fall2019/tree/master/hw3/problem1) to check whether
 you achieved the desired accuracy. The `is_sqrt` implementation is allowed to
 use [`std::fabs`](https://en.cppreference.com/w/cpp/numeric/math/fabs) function
 for computing the absolute value of the difference between _S_ and the square of 
