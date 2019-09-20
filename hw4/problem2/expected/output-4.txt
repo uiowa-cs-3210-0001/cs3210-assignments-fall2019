@@ -1,0 +1,2 @@
+Breakfast menu: apple, orange, banana
+Enter the first letter of a fruit to make a selection: banana
