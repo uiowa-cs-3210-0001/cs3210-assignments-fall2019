@@ -1,0 +1,7 @@
+color: red
+color: blue
+color: green
+color: yellow
+color: orange
+color: pink
+color: purple
