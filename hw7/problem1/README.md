@@ -84,6 +84,6 @@ Notice that we had to rearrange the corresponding class/function declarations/de
 
 ## Problem statement
 
-Bob was reading notes from your class and got intrigued by the notion of granting other classes and functions access to class internals. "Hmm," he said, seemingly not addressing anyone in particular, "I've been playing around with this cars and engines simulation, I wonder if this could help me solve a couple of issues without forcing me to make everything public..." You genereously offered to take a look.
+Bob was reading notes from your class and got intrigued by the notion of granting other classes and functions access to class internals. "Hmm," he said, seemingly not addressing anyone in particular, "I've been playing around with this cars and engines simulation, I wonder if this could help me solve a couple of issues without forcing me to make everything public..." You generously offered to take a look.
 
 Modify Bob's code [here](https://repl.it/@agurtovoy/hw7-problem1) ([`main.cpp`](main.cpp)) to finish his TODOs spelled out in the comments.
