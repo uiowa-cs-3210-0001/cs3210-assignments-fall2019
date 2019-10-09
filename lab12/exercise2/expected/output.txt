@@ -1,0 +1,2 @@
+Plant: Coneflower, max. energy: 10
+Tree: Oak, max. energy: 10, height: 60
