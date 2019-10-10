@@ -78,7 +78,7 @@ public:
         : chess_piece( pos, color, board )
     {}
 
-    // YODO: override chess_piece's default behavior to make the tests pass
+    // TODO: override chess_piece's default behavior to make the tests pass
 };
 
 
@@ -89,7 +89,7 @@ public:
         : chess_piece( pos, color, board )
     {}
 
-    // YODO: override chess_piece's default behavior to make the tests pass
+    // TODO: override chess_piece's default behavior to make the tests pass
 };
 
 
