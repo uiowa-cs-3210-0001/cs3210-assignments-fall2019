@@ -138,7 +138,7 @@ TEST_CASE( "chess basics" )
         REQUIRE( b.color() == chess_piece::black );
 
         REQUIRE( b.is_valid_move( point( 1, 6 ) ) );
-        REQUIRE( !b.is_valid_move( point( 3, 6 ) ) );
+        REQUIRE( !b.is_valid_move( point( 4, 6 ) ) );
         REQUIRE( !b.is_valid_move( point( 0, 5 ) ) );
         REQUIRE( !b.is_valid_move( point( 4, 9 ) ) );
 
