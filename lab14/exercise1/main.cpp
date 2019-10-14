@@ -1,7 +1,10 @@
 #include <iostream>
 #include <cmath>
 
-struct point { int x; int y; };
+struct point { 
+    point( int x, int y ) : x( x ), y( y ) {}
+    int x; int y;
+};
 
 struct moveable {
     virtual void move_by( point const& offset ) {}
@@ -26,12 +29,6 @@ private:
 
 struct organism: alive, moveable
 {
-    void move_around()
-    {
-        while ( has_energy() )
-            move_by( point{ 1, 1 } );
-    }
-
     point pos() const { return pos_; }
 
 private:
@@ -39,14 +36,26 @@ private:
 };
 
 
+void move_south_east( moveable& entity )
+{
+    entity.move_by( point( 1, 1 ) );
+}
+
+void move_around( organism& org )
+{
+    while ( org.has_energy() )
+        move_south_east( org );
+}
+
+
 int main() {
     organism o( 10 );
     assert( o.has_energy() );
-    assert( o.pos() == point{ 0, 0 } );
+    assert( o.pos() == point( 0, 0 ) );
 
-    o.move_around();
+    move_around( o );
     assert( !o.has_energy() );
-    assert( o.pos() == point{ 7, 7 } );
+    assert( o.pos() == point( 4, 4 ) );
 
     std::cout << "All tests pass\n";
 }
