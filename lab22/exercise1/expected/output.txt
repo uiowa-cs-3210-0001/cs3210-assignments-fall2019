@@ -1,0 +1,8 @@
+Make: Toyota
+Model: Camry
+Year: 2017
+
+Make: Toyota
+Model: Tacoma
+Year: 2013
+Capacity: 1620lb
