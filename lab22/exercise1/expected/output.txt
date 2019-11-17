@@ -6,3 +6,4 @@ Make: Toyota
 Model: Tacoma
 Year: 2013
 Capacity: 1620lb
+
