@@ -1,0 +1,12 @@
+Dumpty: 2
+Humpty: 3
+again: 1
+all: 2
+couldn't: 1
+fall: 1
+great: 1
+horses: 1
+king's: 2
+men: 1
+together: 1
+wall: 1
